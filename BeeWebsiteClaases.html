@@ -1,0 +1,4475 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Classes | BeeHive Apiary Supply Co.</title>
+
+    <meta name="description"
+        content="Practical beekeeping classes for beginners and growing beekeepers.">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="data:image/png;base64,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">
+    <link rel="icon" type="image/png" href="Logo3.png">
+    <link rel="shortcut icon" type="image/png" href="Logo3.png">
+    <link rel="apple-touch-icon" href="Logo3.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Playfair+Display:wght@500;600;700&display=swap"
+        rel="stylesheet">
+
+    <style>
+
+        /* =========================================================
+           ROOT
+        ========================================================= */
+
+        :root {
+
+            --gold: #C98A24;
+            --gold-dark: #9A6415;
+            --gold-light: #E7B84B;
+
+            --brown: #3F3428;
+            --brown-light: #66594A;
+
+            --cream: #FBF6E9;
+            --cream-dark: #F4EBD8;
+
+            --white: #FFFDF7;
+            --black: #11100E;
+
+            --gray: #756B5C;
+            --gray-light: #E9DDC5;
+
+            --green: #667B42;
+
+            --header-footer: #3F3428;
+
+            --shadow: 0 20px 60px rgba(63,52,40,.12);
+
+            --radius: 22px;
+
+            --transition: .35s ease;
+
+        }
+
+
+        /* =========================================================
+           DARK MODE
+        ========================================================= */
+
+        body.dark {
+
+            --cream: #17130E;
+            --cream-dark: #2A2116;
+
+            --white: #211B13;
+
+            --black: #FFF6E5;
+
+            --brown: #FFF6E5;
+            --brown-light: #CBBBA5;
+
+            --gold: #D9A441;
+            --gold-dark: #B77A20;
+            --gold-light: #E8BD5A;
+
+            --gray: #BDB09B;
+            --gray-light: #3B3021;
+
+            --green: #91A96B;
+
+            --header-footer: #17120D;
+
+            --shadow: 0 20px 60px rgba(0,0,0,.35);
+
+        }
+
+
+        /* =========================================================
+           RESET
+        ========================================================= */
+
+        * {
+
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+
+        }
+
+        html {
+
+            scroll-behavior: smooth;
+
+        }
+
+        body {
+
+            font-family: "DM Sans", sans-serif;
+
+            background: var(--cream);
+
+            color: var(--brown);
+
+            transition:
+                background .35s ease,
+                color .35s ease;
+
+        }
+
+        a {
+
+            color: inherit;
+            text-decoration: none;
+
+        }
+
+        button,
+        input,
+        select,
+        textarea {
+
+            font-family: inherit;
+
+        }
+
+        img {
+
+            max-width: 100%;
+            display: block;
+
+        }
+
+        .container {
+
+            width: min(1180px, 92%);
+
+            margin: auto;
+
+        }
+
+
+        /* =========================================================
+           HEADER
+        ========================================================= */
+
+        header {
+
+            position: sticky;
+
+            top: 0;
+
+            z-index: 999;
+
+            background: var(--header-footer);
+
+            backdrop-filter: blur(18px);
+
+            border-bottom: 1px solid rgba(255,255,255,.08);
+
+            box-shadow: 0 8px 30px rgba(44,33,24,.12);
+
+            transition: var(--transition);
+
+        }
+
+        .navbar {
+
+            min-height: 90px;
+
+            display: grid;
+
+            grid-template-columns: 1fr auto 1fr;
+
+            align-items: center;
+
+            gap: 25px;
+
+        }
+
+
+        /* =========================================================
+           LOGO
+        ========================================================= */
+
+        .logo {
+
+            display: inline-flex;
+
+            align-items: center;
+
+            gap: 12px;
+
+            justify-self: start;
+
+            width: max-content;
+
+        }
+
+        .logo-mark {
+
+            width: 58px;
+
+            height: 58px;
+
+            position: relative;
+
+            display: flex;
+
+            align-items: center;
+
+            justify-content: center;
+
+            border-radius: 50%;
+
+            background:
+                radial-gradient(
+                    circle at 35% 30%,
+                    #FFE5A0,
+                    #C98A24 55%,
+                    #9A6415 100%
+                );
+
+            box-shadow:
+                0 8px 22px rgba(169,107,16,.22),
+                inset 0 1px 2px rgba(255,255,255,.8);
+
+        }
+
+        .logo-mark::before {
+
+            content: "";
+
+            position: absolute;
+
+            inset: 5px;
+
+            border: 1px solid rgba(255,255,255,.72);
+
+            border-radius: 50%;
+
+        }
+
+        .logo-mark::after {
+
+            content: "";
+
+            position: absolute;
+
+            width: 18px;
+
+            height: 9px;
+
+            bottom: 11px;
+
+            left: 20px;
+
+            border-bottom: 3px solid #FFF8E8;
+
+            border-radius: 50%;
+
+        }
+
+        .logo-bee {
+
+            position: relative;
+
+            width: 21px;
+
+            height: 27px;
+
+            z-index: 2;
+
+            border-radius: 50%;
+
+            background:
+                linear-gradient(
+                    to bottom,
+                    #FFF0B2 0 22%,
+                    #34271B 22% 34%,
+                    #E5A322 34% 57%,
+                    #34271B 57% 69%,
+                    #E5A322 69% 100%
+                );
+
+            border: 2px solid #34271B;
+
+            transform: rotate(-8deg);
+
+        }
+
+        .logo-mark img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            border-radius: 50%;
+            position: relative;
+            z-index: 2;
+        }
+
+        .logo-bee::before,
+        .logo-bee::after {
+
+            content: "";
+
+            position: absolute;
+
+            width: 14px;
+
+            height: 10px;
+
+            top: 1px;
+
+            background: rgba(255,255,255,.9);
+
+            border: 1px solid rgba(52,39,27,.25);
+
+            border-radius: 80% 20% 70% 25%;
+
+        }
+
+        .logo-bee::before {
+
+            right: 14px;
+
+            transform: rotate(-30deg);
+
+        }
+
+        .logo-bee::after {
+
+            left: 14px;
+
+            transform: rotate(30deg);
+
+        }
+
+        .logo-copy {
+
+            display: flex;
+
+            flex-direction: column;
+
+        }
+
+        .logo-copy h1 {
+
+            font-family: "Playfair Display", serif;
+
+            font-size: 28px;
+
+            line-height: .95;
+
+            letter-spacing: -.6px;
+
+            color: #FFF8E8;
+
+        }
+
+        .logo-copy h1 span {
+
+            color: var(--gold-light);
+
+        }
+
+        .logo-copy small {
+
+            margin-top: 6px;
+
+            font-size: 8px;
+
+            font-weight: 800;
+
+            letter-spacing: 2.1px;
+
+            color: #CBBBA5;
+
+            text-transform: uppercase;
+
+        }
+
+
+        /* =========================================================
+           NAVIGATION
+        ========================================================= */
+
+        nav {
+
+            display: flex;
+
+            align-items: center;
+
+            justify-content: center;
+
+            gap: 25px;
+
+            justify-self: center;
+
+        }
+
+        nav > a,
+        .home-dropdown > .home-main {
+
+            position: relative;
+
+            padding: 34px 0;
+
+            font-size: 13px;
+
+            font-weight: 600;
+
+            white-space: nowrap;
+
+            color: #E8DDCD;
+
+            transition: .25s ease;
+
+            cursor: pointer;
+
+        }
+
+        nav > a:hover,
+        nav > a.active,
+        .home-dropdown:hover > .home-main {
+
+            color: var(--gold-light);
+
+        }
+
+        nav > a::after,
+        .home-dropdown > .home-main::after {
+
+            content: "";
+
+            position: absolute;
+
+            left: 50%;
+
+            bottom: 22px;
+
+            width: 0;
+
+            height: 2px;
+
+            border-radius: 20px;
+
+            background: var(--gold);
+
+            transform: translateX(-50%);
+
+            transition: width .25s ease;
+
+        }
+
+        nav > a:hover::after,
+        nav > a.active::after,
+        .home-dropdown:hover > .home-main::after {
+
+            width: 20px;
+
+        }
+
+
+        /* =========================================================
+           HOME DROPDOWN
+        ========================================================= */
+
+        .home-dropdown {
+
+            position: relative;
+
+            height: 100%;
+
+            display: flex;
+
+            align-items: center;
+
+        }
+
+        .home-main {
+
+            display: inline-flex;
+
+            align-items: center;
+
+            gap: 5px;
+
+        }
+
+        .home-dropdown-menu {
+
+            position: absolute;
+
+            top: calc(100% - 5px);
+
+            left: 50%;
+
+            width: 175px;
+
+            padding: 10px;
+
+            transform:
+                translateX(-50%)
+                translateY(10px);
+
+            background: var(--header-footer);
+
+            border: 1px solid rgba(255,255,255,.12);
+
+            border-radius: 14px;
+
+            box-shadow: 0 18px 40px rgba(0,0,0,.22);
+
+            opacity: 0;
+
+            visibility: hidden;
+
+            pointer-events: none;
+
+            transition: .25s ease;
+
+        }
+
+        .home-dropdown:hover .home-dropdown-menu {
+
+            opacity: 1;
+
+            visibility: visible;
+
+            pointer-events: auto;
+
+            transform:
+                translateX(-50%)
+                translateY(0);
+
+        }
+
+        .home-dropdown-menu a {
+
+            display: block;
+
+            padding: 11px 13px;
+
+            border-radius: 9px;
+
+            color: #E8DDCD;
+
+            font-size: 12px;
+
+            font-weight: 600;
+
+            transition: .25s ease;
+
+        }
+
+        .home-dropdown-menu a:hover {
+
+            color: var(--gold-light);
+
+            background: rgba(255,255,255,.08);
+
+            padding-left: 17px;
+
+        }
+
+        .home-dropdown-menu a.active {
+
+            color: var(--gold-light);
+
+            background: rgba(201, 138, 36, .18);
+
+            padding-left: 17px;
+
+            font-weight: 700;
+
+        }
+
+        .home-dropdown-menu a.active::before {
+
+            content: "● ";
+
+            color: var(--gold);
+
+            font-size: 10px;
+
+            margin-right: 4px;
+
+        }
+
+
+        /* =========================================================
+           HEADER ACTIONS
+        ========================================================= */
+
+        .header-actions {
+
+            display: flex;
+
+            align-items: center;
+
+            justify-content: flex-end;
+
+            gap: 8px;
+
+            justify-self: end;
+
+        }
+
+        .icon-btn {
+
+            width: 41px;
+
+            height: 41px;
+
+            display: flex;
+
+            align-items: center;
+
+            justify-content: center;
+
+            border-radius: 50%;
+
+            border: 1px solid rgba(255,255,255,.18);
+
+            background: rgba(255,255,255,.08);
+
+            color: #FFF8E8;
+
+            cursor: pointer;
+
+            font-size: 16px;
+
+            transition: var(--transition);
+
+        }
+
+        .icon-btn:hover {
+
+            background: var(--gold);
+
+            border-color: var(--gold);
+
+            color: #2C2118;
+
+            transform: translateY(-2px);
+
+        }
+
+
+        /* =========================================================
+           NORMAL WEBSITE STYLE BAG + WISHLIST
+        ========================================================= */
+
+        .store-btn {
+
+            width: 41px;
+
+            height: 41px;
+
+            position: relative;
+
+            display: flex;
+
+            align-items: center;
+
+            justify-content: center;
+
+            border-radius: 50%;
+
+            border: 1px solid rgba(255,255,255,.18);
+
+            background: rgba(255,255,255,.08);
+
+            color: #FFF8E8;
+
+            cursor: pointer;
+
+            transition: var(--transition);
+
+        }
+
+        .store-btn:hover {
+
+            background: var(--gold);
+
+            border-color: var(--gold);
+
+            color: #2C2118;
+
+            transform: translateY(-2px);
+
+        }
+
+        .store-btn svg {
+
+            width: 18px;
+
+            height: 18px;
+
+            fill: none;
+
+            stroke: currentColor;
+
+            stroke-width: 1.8;
+
+            stroke-linecap: round;
+
+            stroke-linejoin: round;
+
+        }
+
+        .store-count {
+
+            position: absolute;
+
+            top: -4px;
+
+            right: -4px;
+
+            min-width: 16px;
+
+            height: 16px;
+
+            padding: 0 4px;
+
+            display: flex;
+
+            align-items: center;
+
+            justify-content: center;
+
+            border-radius: 50%;
+
+            background: var(--gold);
+
+            color: #2C2118;
+
+            font-size: 8px;
+
+            font-weight: 800;
+
+            line-height: 1;
+
+            border: 2px solid var(--header-footer);
+
+        }
+
+
+        /* =========================================================
+           SHOP BUTTON
+        ========================================================= */
+
+        .shop-btn {
+
+            padding: 13px 19px;
+
+            border: none;
+
+            border-radius: 50px;
+
+            background: var(--gold);
+
+            color: #2C2118;
+
+            font-size: 12px;
+
+            font-weight: 800;
+
+            white-space: nowrap;
+
+            cursor: pointer;
+
+            transition: var(--transition);
+
+        }
+
+        .shop-btn:hover {
+
+            background: var(--gold-light);
+
+            transform: translateY(-2px);
+
+            box-shadow: 0 10px 25px rgba(201,138,36,.25);
+
+        }
+
+        .menu-btn {
+
+            display: none;
+
+            border: none;
+
+            background: transparent;
+
+            color: #FFF8E8;
+
+            font-size: 25px;
+
+            cursor: pointer;
+
+        }
+
+
+        /* =========================================================
+           CLASSES HERO
+        ========================================================= */
+
+        .classes-hero {
+
+            padding: 90px 0 75px;
+
+            background: var(--cream);
+
+        }
+
+        .classes-hero-inner {
+
+            display: grid;
+
+            grid-template-columns: 1fr 1fr;
+
+            gap: 55px;
+
+            align-items: center;
+
+        }
+
+        .classes-label,
+        .classes-section-label {
+
+            text-transform: uppercase;
+
+            letter-spacing: 2px;
+
+            font-size: 12px;
+
+            font-weight: 800;
+
+            color: var(--gold);
+
+            margin-bottom: 15px;
+
+        }
+
+        .classes-hero h2 {
+
+            font-family: "Playfair Display", serif;
+
+            font-size: clamp(42px,5vw,68px);
+
+            line-height: 1.08;
+
+            color: var(--brown);
+
+            margin: 0 0 20px;
+
+        }
+
+        .classes-hero h2 span {
+
+            color: var(--gold);
+
+        }
+
+        .classes-hero p {
+
+            font-size: 18px;
+
+            line-height: 1.85;
+
+            color: var(--gray);
+
+            max-width: 590px;
+
+            margin: 0 0 28px;
+
+        }
+
+        .classes-hero-info {
+
+            display: flex;
+
+            flex-wrap: wrap;
+
+            gap: 12px;
+
+            margin: 0 0 28px;
+
+            align-items: center;
+
+        }
+
+        .classes-hero-info span {
+
+            padding: 10px 16px;
+
+            border: 1px solid var(--gray-light);
+
+            border-radius: 30px;
+
+            background: var(--white);
+
+            color: var(--brown);
+
+            font-size: 14px;
+
+            font-weight: 700;
+
+            line-height: 1.3;
+
+            white-space: nowrap;
+
+            transition:
+                transform .3s ease,
+                background .3s ease,
+                border-color .3s ease,
+                color .3s ease,
+                box-shadow .3s ease;
+
+        }
+
+        .classes-hero-info span:hover {
+
+            background: rgba(201,138,36,.10);
+
+            border-color: var(--gold);
+
+            transform: translateY(-2px);
+
+            box-shadow: 0 8px 20px rgba(201,138,36,.12);
+
+        }
+
+        .classes-hero-info span:active {
+
+            transform: scale(.96);
+
+        }
+
+        body.dark .classes-hero-info span {
+
+            background: var(--white);
+
+            color: var(--brown);
+
+        }
+
+        body.dark .classes-hero-info span:hover {
+
+            background: rgba(231,182,78,.12);
+
+            border-color: var(--gold);
+
+        }
+
+        .classes-hero-images {
+
+            display: grid;
+
+            grid-template-columns: 1.35fr .65fr;
+
+            grid-template-rows: 190px 190px;
+
+            gap: 16px;
+
+        }
+
+        .classes-hero-image {
+
+            overflow: hidden;
+
+            border-radius: 25px;
+
+            box-shadow: var(--shadow);
+
+            background: var(--cream-dark);
+
+        }
+
+        .classes-hero-image.main {
+
+            grid-row: 1 / 3;
+
+        }
+
+        .classes-hero-image img {
+
+            width: 100%;
+
+            height: 100%;
+
+            object-fit: cover;
+
+            display: block;
+
+            transition: var(--transition);
+
+        }
+
+        .classes-hero-image:hover img {
+
+            transform: scale(1.05);
+
+        }
+
+
+        /* =========================================================
+           CLASSES SECTION
+        ========================================================= */
+
+        .classes-section {
+
+            padding: 85px 0;
+
+            background: var(--white);
+
+        }
+
+        .classes-section-head {
+
+            text-align: center;
+
+            max-width: 700px;
+
+            margin: 0 auto 45px;
+
+        }
+
+        .classes-section-head h3 {
+
+            font-family: "Playfair Display", serif;
+
+            font-size: 42px;
+
+            color: var(--brown);
+
+            margin: 0 0 12px;
+
+        }
+
+        .classes-section-head p {
+
+            color: var(--gray);
+
+            line-height: 1.8;
+
+            margin: 0;
+
+            font-size: 16px;
+
+        }
+
+        .classes-grid {
+
+            display: grid;
+
+            grid-template-columns: repeat(4,1fr);
+
+            gap: 20px;
+
+        }
+
+        .class-card {
+
+            padding: 30px 25px;
+
+            border: 1px solid var(--gray-light);
+
+            border-radius: 22px;
+
+            background: var(--cream);
+
+            transition: var(--transition);
+
+        }
+
+        .class-card:hover {
+
+            transform: translateY(-7px);
+
+            box-shadow: var(--shadow);
+
+        }
+
+
+        /* =========================================================
+           CLASS SVG ICONS
+        ========================================================= */
+
+        .class-icon {
+
+            width: 52px;
+
+            height: 52px;
+
+            border-radius: 16px;
+
+            background: rgba(201,138,36,.14);
+
+            color: var(--gold-dark);
+
+            display: grid;
+
+            place-items: center;
+
+            margin-bottom: 20px;
+
+            transition:
+                transform .3s ease,
+                background .3s ease,
+                color .3s ease,
+                box-shadow .3s ease;
+
+        }
+
+        .class-icon svg {
+
+            width: 25px;
+
+            height: 25px;
+
+            display: block;
+
+            fill: none;
+
+            stroke: currentColor;
+
+            stroke-width: 1.8;
+
+            stroke-linecap: round;
+
+            stroke-linejoin: round;
+
+            transition: transform .3s ease;
+
+        }
+
+        .class-card:hover .class-icon {
+
+            background: var(--gold);
+
+            color: #2C2118;
+
+            transform: translateY(-3px) scale(1.05);
+
+            box-shadow: 0 10px 24px rgba(201,138,36,.22);
+
+        }
+
+        .class-card:hover .class-icon svg {
+
+            transform: scale(1.06);
+
+        }
+
+        .class-card:active .class-icon {
+
+            transform: scale(.94);
+
+        }
+
+        body.dark .class-icon {
+
+            background: rgba(231,182,78,.14);
+
+            color: var(--gold-light);
+
+        }
+
+        body.dark .class-card:hover .class-icon {
+
+            background: var(--gold);
+
+            color: #211B13;
+
+        }
+
+        .class-card h4 {
+
+            font-family: "Playfair Display", serif;
+
+            font-size: 23px;
+
+            color: var(--brown);
+
+            margin: 0 0 10px;
+
+        }
+
+        .class-card p {
+
+            color: var(--gray);
+
+            line-height: 1.8;
+
+            margin: 0;
+
+            font-size: 15px;
+
+        }
+
+
+        /* =========================================================
+           LEARNING
+        ========================================================= */
+
+        .classes-learning {
+
+            padding: 85px 0;
+
+            background: var(--cream);
+
+        }
+
+        .classes-learning-grid {
+
+            display: grid;
+
+            grid-template-columns: .95fr 1.05fr;
+
+            gap: 60px;
+
+            align-items: center;
+
+        }
+
+        .classes-learning-image {
+
+            border-radius: 26px;
+
+            overflow: hidden;
+
+            box-shadow: var(--shadow);
+
+        }
+
+        .classes-learning-image img {
+
+            width: 100%;
+
+            height: 440px;
+
+            object-fit: cover;
+
+            display: block;
+
+        }
+
+        .classes-learning h3 {
+
+            font-family: "Playfair Display", serif;
+
+            font-size: 42px;
+
+            line-height: 1.15;
+
+            color: var(--brown);
+
+            margin: 0 0 18px;
+
+        }
+
+        .classes-learning p {
+
+            color: var(--gray);
+
+            font-size: 17px;
+
+            line-height: 1.85;
+
+            margin: 0 0 22px;
+
+        }
+
+        .learning-points {
+
+            display: grid;
+
+            grid-template-columns: 1fr 1fr;
+
+            gap: 13px;
+
+        }
+
+        .learning-point {
+
+            display: flex;
+
+            gap: 10px;
+
+            align-items: center;
+
+            color: var(--brown);
+
+            font-weight: 600;
+
+            font-size: 15px;
+
+            line-height: 1.6;
+
+        }
+
+
+        /* =========================================================
+           LEARNING SVG CHECK ICON
+        ========================================================= */
+
+        .learning-point .point-icon {
+
+            width: 28px;
+
+            height: 28px;
+
+            min-width: 28px;
+
+            display: grid;
+
+            place-items: center;
+
+            border-radius: 50%;
+
+            background: rgba(201,138,36,.13);
+
+            color: var(--gold-dark);
+
+            transition:
+                transform .3s ease,
+                background .3s ease,
+                color .3s ease,
+                box-shadow .3s ease;
+
+        }
+
+        .learning-point .point-icon svg {
+
+            width: 16px;
+
+            height: 16px;
+
+            fill: none;
+
+            stroke: currentColor;
+
+            stroke-width: 2.4;
+
+            stroke-linecap: round;
+
+            stroke-linejoin: round;
+
+        }
+
+        .learning-point:hover .point-icon {
+
+            background: var(--gold);
+
+            color: #2C2118;
+
+            transform: scale(1.08);
+
+            box-shadow: 0 7px 18px rgba(201,138,36,.20);
+
+        }
+
+        .learning-point:active .point-icon {
+
+            transform: scale(.92);
+
+        }
+
+        body.dark .learning-point .point-icon {
+
+            background: rgba(231,182,78,.14);
+
+            color: var(--gold-light);
+
+        }
+
+        body.dark .learning-point:hover .point-icon {
+
+            background: var(--gold);
+
+            color: #211B13;
+
+        }
+
+
+        /* =========================================================
+           CTA
+        ========================================================= */
+
+        .classes-cta {
+
+            padding: 85px 0;
+
+            background: var(--cream);
+
+        }
+
+        .classes-cta-box {
+
+            position: relative;
+
+            overflow: hidden;
+
+            text-align: center;
+
+            padding: 68px 45px;
+
+            border-radius: 28px;
+
+            background: linear-gradient(
+                135deg,
+                #3F3428 0%,
+                #66594A 100%
+            );
+
+            border: 1px solid var(--gold);
+
+            box-shadow: 0 20px 60px rgba(63,52,40,.18);
+
+        }
+
+        .classes-cta-box::before {
+
+            content: "";
+
+            position: absolute;
+
+            width: 240px;
+
+            height: 240px;
+
+            top: -130px;
+
+            left: -80px;
+
+            border-radius: 50%;
+
+            background: rgba(201,138,36,.18);
+
+        }
+
+        .classes-cta-box::after {
+
+            content: "";
+
+            position: absolute;
+
+            width: 200px;
+
+            height: 200px;
+
+            right: -80px;
+
+            bottom: -120px;
+
+            border-radius: 50%;
+
+            background: rgba(201,138,36,.12);
+
+        }
+
+        .classes-cta-box h3 {
+
+            position: relative;
+
+            z-index: 2;
+
+            font-family: "Playfair Display", serif;
+
+            font-size: clamp(34px, 4vw, 50px);
+
+            line-height: 1.15;
+
+            color: var(--gold-light);
+
+            margin: 0 0 16px;
+
+        }
+
+        .classes-cta-box p {
+
+            position: relative;
+
+            z-index: 2;
+
+            max-width: 650px;
+
+            margin: 0 auto 28px;
+
+            color: #FFF8E8;
+
+            font-size: 17px;
+
+            line-height: 1.85;
+
+        }
+
+        .classes-cta-box a {
+
+            position: relative;
+
+            z-index: 2;
+
+            display: inline-flex;
+
+            align-items: center;
+
+            justify-content: center;
+
+            padding: 14px 26px;
+
+            border-radius: 50px;
+
+            background: var(--gold);
+
+            color: #2C2118;
+
+            border: 1px solid var(--gold-light);
+
+            font-size: 13px;
+
+            font-weight: 800;
+
+            transition: var(--transition);
+
+            box-shadow: 0 10px 28px rgba(201,138,36,.25);
+
+        }
+
+        .classes-cta-box a:hover {
+
+            background: var(--gold-light);
+
+            color: var(--brown);
+
+            transform: translateY(-3px);
+
+            box-shadow: 0 14px 32px rgba(201,138,36,.30);
+
+        }
+
+
+        /* =========================================================
+           CTA SVG ARROW
+        ========================================================= */
+
+        .cta-arrow {
+
+            width: 17px;
+
+            height: 17px;
+
+            margin-left: 7px;
+
+            display: inline-block;
+
+            fill: none;
+
+            stroke: currentColor;
+
+            stroke-width: 2;
+
+            stroke-linecap: round;
+
+            stroke-linejoin: round;
+
+            transition: transform .3s ease;
+
+        }
+
+        .classes-cta-box a:hover .cta-arrow {
+
+            transform: translateX(4px);
+
+        }
+
+        body.dark .classes-cta {
+
+            background: var(--cream);
+
+        }
+
+        body.dark .classes-cta-box {
+
+            background: linear-gradient(
+                135deg,
+                #3F3428 0%,
+                #66594A 100%
+            );
+
+            border-color: var(--gold);
+
+            box-shadow: 0 22px 65px rgba(0,0,0,.35);
+
+        }
+
+        body.dark .classes-cta-box h3 {
+
+            color: var(--gold-light);
+
+        }
+
+        body.dark .classes-cta-box p {
+
+            color: #FFF6E5;
+
+        }
+
+        body.dark .classes-cta-box a {
+
+            background: var(--gold);
+
+            color: #241A10;
+
+            border-color: var(--gold-light);
+
+        }
+
+        body.dark .classes-cta-box a:hover {
+
+            background: var(--gold-light);
+
+            color: var(--brown);
+
+        }
+
+
+        /* =========================================================
+           FOOTER
+        ========================================================= */
+
+        footer {
+
+            padding: 75px 0 26px;
+
+            background: var(--header-footer);
+
+            color: #FFF9ED;
+
+        }
+
+        .footer-grid {
+
+            display: grid;
+
+            grid-template-columns: 1.55fr 1fr 1fr 1fr;
+
+            gap: 50px;
+
+            padding-bottom: 45px;
+
+        }
+
+        .footer-logo {
+
+            display: flex;
+
+            align-items: center;
+
+            gap: 11px;
+
+            margin-bottom: 18px;
+
+        }
+
+        .footer-logo .logo-mark {
+
+            width: 52px;
+
+            height: 52px;
+
+        }
+
+        .footer-logo .logo-copy h1 {
+
+            color: white;
+
+            font-size: 30px;
+
+        }
+
+        .footer-logo .logo-copy h1 span {
+
+            color: var(--gold-light);
+
+        }
+
+        .footer-logo .logo-copy small {
+
+            color: #B8AA98;
+
+        }
+
+        .footer-description {
+
+            max-width: 340px;
+
+            color: #B8AA98;
+
+            font-size: 14px;
+
+            line-height: 1.9;
+
+            margin-bottom: 20px;
+
+        }
+
+        .footer-socials {
+
+            display: flex;
+
+            align-items: center;
+
+            gap: 10px;
+
+            margin-top: 6px;
+
+        }
+
+        .footer-socials a {
+
+            width: 38px;
+
+            height: 38px;
+
+            display: flex;
+
+            align-items: center;
+
+            justify-content: center;
+
+            border: 1px solid rgba(255,255,255,.16);
+
+            border-radius: 50%;
+
+            color: #D2C4B2;
+
+            background: rgba(255,255,255,.04);
+
+            transition: .25s ease;
+
+        }
+
+        .footer-socials a svg {
+
+            width: 17px;
+
+            height: 17px;
+
+            fill: currentColor;
+
+        }
+
+        .footer-socials a:hover {
+
+            background: var(--gold);
+
+            border-color: var(--gold);
+
+            color: #2C2118;
+
+            transform: translateY(-3px);
+
+        }
+
+        footer h4 {
+
+            color: var(--gold-light);
+
+            font-size: 13px;
+
+            letter-spacing: 1.5px;
+
+            text-transform: uppercase;
+
+            margin-bottom: 19px;
+
+        }
+
+        footer ul {
+
+            list-style: none;
+
+            display: grid;
+
+            gap: 11px;
+
+        }
+
+        footer li a {
+
+            color: #C8B9A6;
+
+            font-size: 13px;
+
+            transition: .25s;
+
+        }
+
+        footer li a:hover {
+
+            color: var(--gold-light);
+
+            padding-left: 4px;
+
+        }
+
+        .footer-bottom {
+
+            padding-top: 23px;
+
+            border-top: 1px solid rgba(255,255,255,.12);
+
+            display: flex;
+
+            align-items: center;
+
+            justify-content: space-between;
+
+            color: #9F907E;
+
+            font-size: 11px;
+
+        }
+
+        .footer-legal {
+
+            display: flex;
+
+            align-items: center;
+
+            gap: 20px;
+
+        }
+
+        .footer-legal a {
+
+            color: #B8AA98;
+
+            font-size: 11px;
+
+            transition: .25s ease;
+
+        }
+
+        .footer-legal a:hover {
+
+            color: var(--gold-light);
+
+        }
+
+
+        /* =========================================================
+           BOOK A CLASS MODAL
+        ========================================================= */
+
+        .class-modal {
+
+            position: fixed;
+
+            inset: 0;
+
+            z-index: 5000;
+
+            display: flex;
+
+            align-items: center;
+
+            justify-content: center;
+
+            padding: 25px;
+
+            opacity: 0;
+
+            visibility: hidden;
+
+            pointer-events: none;
+
+            transition: .3s ease;
+
+        }
+
+        .class-modal.show {
+
+            opacity: 1;
+
+            visibility: visible;
+
+            pointer-events: auto;
+
+        }
+
+        .class-modal-overlay {
+
+            position: absolute;
+
+            inset: 0;
+
+            background: rgba(17,16,14,.72);
+
+            backdrop-filter: blur(8px);
+
+        }
+
+        .class-modal-box {
+
+            position: relative;
+
+            z-index: 2;
+
+            width: min(650px, 100%);
+
+            max-height: 92vh;
+
+            overflow-y: auto;
+
+            padding: 38px;
+
+            border-radius: 25px;
+
+            background: var(--cream);
+
+            color: var(--brown);
+
+            border: 1px solid var(--gray-light);
+
+            box-shadow: 0 30px 90px rgba(0,0,0,.35);
+
+            transform: translateY(25px) scale(.97);
+
+            transition: .3s ease;
+
+        }
+
+        .class-modal.show .class-modal-box {
+
+            transform: translateY(0) scale(1);
+
+        }
+
+        .class-modal-close {
+
+            position: absolute;
+
+            top: 15px;
+
+            right: 17px;
+
+            width: 38px;
+
+            height: 38px;
+
+            border: 1px solid var(--gray-light);
+
+            border-radius: 50%;
+
+            background: transparent;
+
+            color: var(--brown);
+
+            cursor: pointer;
+
+            transition: .25s ease;
+
+            display: grid;
+
+            place-items: center;
+
+        }
+
+        .class-modal-close svg {
+
+            width: 18px;
+
+            height: 18px;
+
+            fill: none;
+
+            stroke: currentColor;
+
+            stroke-width: 2;
+
+            stroke-linecap: round;
+
+            stroke-linejoin: round;
+
+            transition: transform .3s ease;
+
+        }
+
+        .class-modal-close:hover {
+
+            background: var(--gold);
+
+            border-color: var(--gold);
+
+            color: #2C2118;
+
+            transform: rotate(90deg);
+
+        }
+
+        .class-modal-header {
+
+            padding-right: 40px;
+
+            margin-bottom: 25px;
+
+        }
+
+        .class-modal-header .section-label {
+
+            margin-bottom: 8px;
+
+        }
+
+        .class-modal-header h3 {
+
+            margin-bottom: 8px;
+
+            color: var(--brown);
+
+            font-family: "Playfair Display", serif;
+
+            font-size: 36px;
+
+            line-height: 1.1;
+
+        }
+
+        .class-modal-header p {
+
+            color: var(--gray);
+
+            font-size: 14px;
+
+            line-height: 1.8;
+
+        }
+
+        .class-form-grid {
+
+            display: grid;
+
+            grid-template-columns: 1fr 1fr;
+
+            gap: 16px;
+
+        }
+
+        .class-field {
+
+            display: flex;
+
+            flex-direction: column;
+
+            gap: 7px;
+
+        }
+
+        .class-field label {
+
+            color: var(--brown);
+
+            font-size: 13px;
+
+            font-weight: 800;
+
+        }
+
+        .class-field input,
+        .class-field select,
+        .class-field textarea {
+
+            width: 100%;
+
+            border: 1px solid var(--gray-light);
+
+            border-radius: 12px;
+
+            outline: none;
+
+            background: var(--white);
+
+            color: var(--brown);
+
+            padding: 13px 14px;
+
+            font-size: 14px;
+
+            transition: .25s ease;
+
+        }
+
+        .class-field input:focus,
+        .class-field select:focus,
+        .class-field textarea:focus {
+
+            border-color: var(--gold);
+
+            box-shadow: 0 0 0 3px rgba(201,138,36,.12);
+
+        }
+
+        .class-field textarea {
+
+            resize: vertical;
+
+            min-height: 100px;
+
+        }
+
+        .class-full {
+
+            margin-top: 16px;
+
+        }
+
+        .class-confirm-btn {
+
+            width: 100%;
+
+            min-height: 50px;
+
+            margin-top: 20px;
+
+            border: none;
+
+            border-radius: 50px;
+
+            background: var(--gold);
+
+            color: #2C2118;
+
+            font-size: 14px;
+
+            font-weight: 800;
+
+            cursor: pointer;
+
+            transition: var(--transition);
+
+        }
+
+        .class-confirm-btn:hover {
+
+            background: var(--gold-light);
+
+            transform: translateY(-2px);
+
+            box-shadow: 0 12px 28px rgba(201,138,36,.25);
+
+        }
+
+        .class-success {
+
+            display: none;
+
+            margin-top: 15px;
+
+            padding: 13px 15px;
+
+            border-radius: 12px;
+
+            background: rgba(102,123,66,.13);
+
+            border: 1px solid rgba(102,123,66,.3);
+
+            color: var(--green);
+
+            font-size: 13px;
+
+            font-weight: 700;
+
+            text-align: center;
+
+            align-items: center;
+
+            justify-content: center;
+
+            gap: 7px;
+
+        }
+
+        .class-success.show {
+
+            display: flex;
+
+        }
+
+        .class-success-icon {
+
+            width: 20px;
+
+            height: 20px;
+
+            min-width: 20px;
+
+            display: grid;
+
+            place-items: center;
+
+            border-radius: 50%;
+
+            color: var(--green);
+
+            transition: transform .3s ease;
+
+        }
+
+        .class-success-icon svg {
+
+            width: 18px;
+
+            height: 18px;
+
+            fill: none;
+
+            stroke: currentColor;
+
+            stroke-width: 2.2;
+
+            stroke-linecap: round;
+
+            stroke-linejoin: round;
+
+        }
+
+        .class-success:hover .class-success-icon {
+
+            transform: scale(1.08);
+
+        }
+
+        body.dark .class-modal-overlay {
+
+            background: rgba(0,0,0,.78);
+
+        }
+
+        body.dark .class-modal-box {
+
+            background: #211A12;
+
+            border-color: #4A3B2A;
+
+        }
+
+        body.dark .class-modal-header h3,
+        body.dark .class-field label {
+
+            color: #FFF4DD;
+
+        }
+
+        body.dark .class-modal-header p {
+
+            color: #C8BBA8;
+
+        }
+
+        body.dark .class-field input,
+        body.dark .class-field select,
+        body.dark .class-field textarea {
+
+            background: #17130E;
+
+            border-color: #4A3B2A;
+
+            color: #FFF4DD;
+
+        }
+
+        body.dark .class-modal-close {
+
+            border-color: #4A3B2A;
+
+            color: #FFF4DD;
+
+        }
+
+        body.dark .class-modal-close:hover {
+
+            background: #E7B64E;
+
+            color: #2C2118;
+
+        }
+
+        @media(max-width:600px) {
+
+            .class-modal {
+
+                padding: 15px;
+
+            }
+
+            .class-modal-box {
+
+                padding: 28px 20px;
+
+                border-radius: 20px;
+
+            }
+
+            .class-modal-header h3 {
+
+                font-size: 30px;
+
+            }
+
+            .class-form-grid {
+
+                grid-template-columns: 1fr;
+
+                gap: 14px;
+
+            }
+
+            .class-full {
+
+                margin-top: 14px;
+
+            }
+
+            .class-modal-close {
+
+                top: 12px;
+
+                right: 12px;
+
+            }
+
+        }
+
+
+        /* =========================================================
+           RTL
+        ========================================================= */
+
+        html[dir="rtl"] .navbar {
+
+            direction: rtl;
+
+        }
+
+        html[dir="rtl"] .classes-hero-info {
+
+            direction: rtl;
+
+        }
+
+        html[dir="rtl"] .learning-point {
+
+            direction: rtl;
+
+        }
+
+
+        /* =========================================================
+           RESPONSIVE
+        ========================================================= */
+
+        @media(max-width:1050px) {
+
+            .classes-grid {
+
+                grid-template-columns: 1fr 1fr;
+
+            }
+
+            .classes-hero-inner {
+
+                gap: 35px;
+
+            }
+
+        }
+
+
+        @media(max-width:950px) {
+
+            .navbar {
+
+                display: flex;
+
+                justify-content: space-between;
+
+            }
+
+            .navbar nav {
+
+                display: none;
+
+                position: absolute;
+
+                top: 90px;
+
+                left: 0;
+
+                right: 0;
+
+                padding: 15px 5% 20px;
+
+                background: var(--header-footer);
+
+                box-shadow: 0 18px 30px rgba(44,33,24,.15);
+
+                flex-direction: column;
+
+                align-items: flex-start;
+
+                gap: 0;
+
+            }
+
+            .navbar nav.show {
+
+                display: flex;
+
+            }
+
+            nav > a,
+            .home-dropdown > .home-main {
+
+                width: 100%;
+
+                padding: 13px 0;
+
+                color: #E8DDCD;
+
+            }
+
+            nav > a::after,
+            .home-dropdown > .home-main::after {
+
+                left: 0;
+
+                bottom: 7px;
+
+                transform: none;
+
+            }
+
+            .home-dropdown {
+
+                width: 100%;
+
+                display: block;
+
+                height: auto;
+
+            }
+
+            .home-dropdown > .home-main {
+
+                display: block;
+
+            }
+
+            .home-dropdown-menu {
+
+                position: static;
+
+                width: 100%;
+
+                padding: 3px 0 8px 15px;
+
+                transform: none;
+
+                background: transparent;
+
+                border: none;
+
+                box-shadow: none;
+
+                opacity: 1;
+
+                visibility: visible;
+
+                pointer-events: auto;
+
+            }
+
+            .home-dropdown-menu a {
+
+                padding: 9px 12px;
+
+                background: rgba(255,255,255,.05);
+
+                margin-bottom: 4px;
+
+                width: 150px;
+
+            }
+
+            .header-actions {
+
+                margin-left: auto;
+
+                justify-self: auto;
+
+            }
+
+            .menu-btn {
+
+                display: block;
+
+            }
+
+            .shop-btn {
+
+                display: inline-flex;
+
+                align-items: center;
+
+                justify-content: center;
+
+            }
+
+            .classes-hero-inner,
+            .classes-learning-grid {
+
+                grid-template-columns: 1fr;
+
+            }
+
+            .classes-hero-images {
+
+                max-width: 700px;
+
+            }
+
+            .classes-learning-grid {
+
+                gap: 35px;
+
+            }
+
+            .classes-learning-image img {
+
+                height: 380px;
+
+            }
+
+            .footer-grid {
+
+                grid-template-columns: 1.5fr 1fr 1fr;
+
+            }
+
+        }
+
+
+        @media(max-width:600px) {
+
+            .container {
+
+                width: 90%;
+
+            }
+
+            .navbar {
+
+                min-height: 76px;
+
+            }
+
+            .logo-mark {
+
+                width: 47px;
+
+                height: 47px;
+
+            }
+
+            .logo-copy h1 {
+
+                font-size: 23px;
+
+            }
+
+            .logo-copy small {
+
+                font-size: 6.5px;
+
+                letter-spacing: 1.5px;
+
+            }
+
+            .icon-btn {
+
+                width: 35px;
+
+                height: 35px;
+
+            }
+
+            .store-btn {
+
+                width: 35px;
+
+                height: 35px;
+
+            }
+
+            .store-btn svg {
+
+                width: 16px;
+
+                height: 16px;
+
+            }
+
+            .store-count {
+
+                min-width: 14px;
+
+                height: 14px;
+
+                font-size: 7px;
+
+            }
+
+            .navbar nav {
+
+                top: 76px;
+
+            }
+
+            .classes-hero,
+            .classes-section,
+            .classes-learning {
+
+                padding: 60px 0;
+
+            }
+
+            .classes-hero h2 {
+
+                font-size: 42px;
+
+            }
+
+            .classes-hero p {
+
+                font-size: 16px;
+
+                line-height: 1.8;
+
+            }
+
+            .classes-hero-info {
+
+                gap: 9px;
+
+                margin-bottom: 25px;
+
+            }
+
+            .classes-hero-info span {
+
+                font-size: 13px;
+
+                padding: 9px 13px;
+
+            }
+
+            .classes-section-head h3,
+            .classes-learning h3,
+            .classes-cta-box h3 {
+
+                font-size: 32px;
+
+            }
+
+            .classes-section-head p {
+
+                font-size: 15px;
+
+                line-height: 1.8;
+
+            }
+
+            .classes-grid {
+
+                grid-template-columns: 1fr;
+
+            }
+
+            .class-card p {
+
+                font-size: 15px;
+
+                line-height: 1.8;
+
+            }
+
+            .classes-hero-images {
+
+                grid-template-columns: 1fr 1fr;
+
+                grid-template-rows: 180px 180px;
+
+                gap: 10px;
+
+            }
+
+            .classes-hero-image.main {
+
+                grid-row: 1 / 3;
+
+            }
+
+            .classes-learning-image img {
+
+                height: 300px;
+
+            }
+
+            .classes-learning p {
+
+                font-size: 16px;
+
+                line-height: 1.8;
+
+            }
+
+            .learning-points {
+
+                grid-template-columns: 1fr;
+
+            }
+
+            .learning-point {
+
+                font-size: 15px;
+
+            }
+
+            .classes-cta {
+
+                padding: 55px 0;
+
+            }
+
+            .classes-cta-box {
+
+                padding: 45px 22px;
+
+                border-radius: 24px;
+
+            }
+
+            .classes-cta-box p {
+
+                font-size: 15px;
+
+                line-height: 1.8;
+
+            }
+
+            .classes-cta-box a {
+
+                width: 100%;
+
+                max-width: 220px;
+
+            }
+
+            .footer-grid {
+
+                grid-template-columns: 1fr;
+
+                gap: 32px;
+
+            }
+
+            .footer-bottom {
+
+                flex-direction: column;
+
+                align-items: flex-start;
+
+                gap: 15px;
+
+            }
+
+            .footer-legal {
+
+                flex-wrap: wrap;
+
+                gap: 10px 18px;
+
+            }
+
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+    <!-- =========================================================
+         HEADER
+    ========================================================= -->
+
+    <header>
+
+        <div class="container navbar">
+
+            <a href="BeeWebsite.html" class="logo">
+
+                <div class="logo-mark">
+
+                    <img src="Images/Logo3.png" alt="BeeHive Logo">
+
+                </div>
+
+                <div class="logo-copy">
+
+                    <h1>
+
+                        Bee<span>Hive</span>
+
+                    </h1>
+
+                    <small>
+
+                        Apiary Supply Co.
+
+                    </small>
+
+                </div>
+
+            </a>
+
+
+            <nav id="navLinks">
+
+                <div class="home-dropdown">
+
+                    <a href="Index.html" class="home-main">
+
+                        Home <span class="home-arrow">⌄</span>
+
+                    </a>
+
+                    <div class="home-dropdown-menu">
+
+                     <a href="Index.html">
+                      Home 1 — Classic
+               
+                      </a>
+
+                      <a href="BeeWebsite2.html">
+                       Home 2 — Premium
+                     </a>
+
+                    </div>
+
+                </div>
+
+
+                <a href="BeeWebsiteProduct.html">
+
+                    Products
+
+                </a>
+
+                <a href="BeeWebsiteBeginner's Guide.html">
+
+                    Beginner's Guide
+
+                </a>
+
+                <a href="BeeWebsiteClaases.html" class="active">
+
+                    Classes
+
+                </a>
+
+                <a href="BeeWebsiteAbout.html">
+
+                    About
+
+                </a>
+
+                <a href="BeeWebsiteContact.html">
+
+                    Contact
+
+                </a>
+
+            </nav>
+
+
+            <div class="header-actions">
+
+
+                <!-- THEME -->
+
+                <button
+                    class="icon-btn"
+                    id="themeBtn"
+                    aria-label="Toggle dark mode"
+                    title="Theme">
+
+                    ☾
+
+                </button>
+
+
+                <!-- DIRECTION -->
+
+                <button
+                    class="icon-btn"
+                    id="directionBtn"
+                    aria-label="Toggle direction"
+                    title="Direction">
+
+                    ⇄
+
+                </button>
+
+
+                <!-- BOOK A CLASS -->
+
+                <button
+                    type="button"
+                    class="shop-btn"
+                    id="bookClassBtn">
+
+                    Book a Class
+
+                </button>
+
+
+                <!-- MENU -->
+
+                <button
+                    class="menu-btn"
+                    id="menuBtn"
+                    aria-label="Open menu">
+
+                    ☰
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <!-- =========================================================
+         MAIN
+    ========================================================= -->
+
+    <main>
+
+
+        <!-- HERO -->
+
+        <section class="classes-hero">
+
+            <div class="container classes-hero-inner">
+
+
+                <div>
+
+                    <div class="classes-label">
+
+                        LOCAL BEEKEEPING CLASSES
+
+                    </div>
+
+                    <h2>
+
+                        Learn Beekeeping.
+
+                        <span>Build Confidence.</span>
+
+                    </h2>
+
+                    <p>
+
+                        Get hands-on experience with real hives,
+
+                        protective gear, hive tools, smokers, frames,
+
+                        and everyday apiary practices. Our beginner-friendly
+
+                        classes make learning practical, safe, and easy to understand.
+
+                    </p>
+
+
+                    <!-- HERO BADGES -->
+
+                    <div class="classes-hero-info">
+
+                        <span>
+
+                            Hands-on Hive Practice
+
+                        </span>
+
+                        <span>
+
+                            Protective Gear
+
+                        </span>
+
+                        <span>
+
+                            Honey Harvesting
+
+                        </span>
+
+                    </div>
+
+
+                    <a
+                        href="#classes"
+                        class="shop-btn">
+
+                        Explore Classes
+
+                    </a>
+
+                </div>
+
+
+                <div class="classes-hero-images">
+
+
+                    <div class="classes-hero-image main">
+
+                        <img
+                            src="Images/img3.jfif"
+                            alt="Beekeeper inspecting a hive">
+
+                    </div>
+
+
+                    <div class="classes-hero-image">
+
+                        <img
+                            src="Images/Honey1.jfif"
+                            alt="Beekeeping equipment and honey">
+
+                    </div>
+
+
+                    <div class="classes-hero-image">
+
+                        <img
+                            src="Images/honey9.jpg"
+                            alt="Beekeeper working with apiary equipment">
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- WHAT YOU CAN LEARN -->
+
+        <section
+            class="classes-section"
+            id="classes">
+
+            <div class="container">
+
+
+                <div class="classes-section-head">
+
+                    <div class="classes-section-label">
+
+                        WHAT YOU CAN LEARN
+
+                    </div>
+
+                    <h3>
+
+                        Practical Skills for Your Apiary.
+
+                    </h3>
+
+                    <p>
+
+                        Simple, practical sessions focused on the
+
+                        skills you actually use around the hive.
+
+                    </p>
+
+                </div>
+
+
+                <div class="classes-grid">
+
+
+                    <div class="class-card">
+
+                        <div class="class-icon" aria-hidden="true">
+
+                            <svg viewBox="0 0 24 24">
+
+                                <ellipse cx="12" cy="13" rx="5" ry="7"></ellipse>
+
+                                <path d="M7.8 10h8.4"></path>
+
+                                <path d="M7.3 13h9.4"></path>
+
+                                <path d="M9 6.5c-2.5-2-4.5-.4-4.8 1.7"></path>
+
+                                <path d="M15 6.5c2.5-2 4.5-.4 4.8 1.7"></path>
+
+                                <path d="M10 20l-1.5 2"></path>
+
+                                <path d="M14 20l1.5 2"></path>
+
+                            </svg>
+
+                        </div>
+
+                        <h4>
+
+                            Bee Basics
+
+                        </h4>
+
+                        <p>
+
+                            Understand colonies, bee behavior,
+
+                            hive roles, and the essentials of
+
+                            starting your first hive.
+
+                        </p>
+
+                    </div>
+
+
+                    <div class="class-card">
+
+                        <div class="class-icon" aria-hidden="true">
+
+                            <svg viewBox="0 0 24 24">
+
+                                <path d="M12 3 20 7.5v9L12 21l-8-4.5v-9L12 3Z"></path>
+
+                                <path d="M4 7.5 12 12l8-4.5"></path>
+
+                                <path d="M12 12v9"></path>
+
+                            </svg>
+
+                        </div>
+
+                        <h4>
+
+                            Hive Management
+
+                        </h4>
+
+                        <p>
+
+                            Practice safe inspections, frame handling,
+
+                            feeding, hive maintenance, and colony care.
+
+                        </p>
+
+                    </div>
+
+
+                    <div class="class-card">
+
+                        <div class="class-icon" aria-hidden="true">
+
+                            <svg viewBox="0 0 24 24">
+
+                                <path d="M7 11V5.5a1.5 1.5 0 0 1 3 0V10"></path>
+
+                                <path d="M10 10V4.5a1.5 1.5 0 0 1 3 0V10"></path>
+
+                                <path d="M13 10V5.5a1.5 1.5 0 0 1 3 0V11"></path>
+
+                                <path d="M16 11V8a1.5 1.5 0 0 1 3 0v6.5A5.5 5.5 0 0 1 13.5 20H11a5 5 0 0 1-4.4-2.6L4 13.2a1.7 1.7 0 0 1 2.9-1.7L9 14"></path>
+
+                            </svg>
+
+                        </div>
+
+                        <h4>
+
+                            Safety & Tools
+
+                        </h4>
+
+                        <p>
+
+                            Learn how to use protective gear, smokers,
+
+                            hive tools, and other everyday apiary accessories.
+
+                        </p>
+
+                    </div>
+
+
+                    <div class="class-card">
+
+                        <div class="class-icon" aria-hidden="true">
+
+                            <svg viewBox="0 0 24 24">
+
+                                <path d="M6 3h12v18H6z"></path>
+
+                                <path d="M6 7h12"></path>
+
+                                <path d="M9 11h6"></path>
+
+                                <path d="M9 15h6"></path>
+
+                                <path d="M9 19h6"></path>
+
+                            </svg>
+
+                        </div>
+
+                        <h4>
+
+                            Honey Harvesting
+
+                        </h4>
+
+                        <p>
+
+                            Explore frame preparation, extraction,
+
+                            filtering, and the basics of clean honey handling.
+
+                        </p>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- LEARNING -->
+
+        <section class="classes-learning">
+
+            <div class="container classes-learning-grid">
+
+
+                <div class="classes-learning-image">
+
+                    <img
+                        src="Images/Home6.jpg"
+                        alt="Beekeeper wearing protective gear and working with a hive">
+
+                </div>
+
+
+                <div>
+
+                    <div class="classes-section-label">
+
+                        LEARN BY DOING
+
+                    </div>
+
+                    <h3>
+
+                        From Protective Gear to Hive Inspection.
+
+                    </h3>
+
+                    <p>
+
+                        Our classes focus on real apiary situations,
+
+                        giving you the confidence to handle equipment,
+
+                        inspect frames, work safely around bees,
+
+                        and understand everyday hive care.
+
+                    </p>
+
+
+                    <div class="learning-points">
+
+
+                        <div class="learning-point">
+
+                            <span class="point-icon" aria-hidden="true">
+
+                                <svg viewBox="0 0 24 24">
+
+                                    <path d="M5 12.5l4 4L19 7"></path>
+
+                                </svg>
+
+                            </span>
+
+                            Protective gear and safe handling
+
+                        </div>
+
+
+                        <div class="learning-point">
+
+                            <span class="point-icon" aria-hidden="true">
+
+                                <svg viewBox="0 0 24 24">
+
+                                    <path d="M5 12.5l4 4L19 7"></path>
+
+                                </svg>
+
+                            </span>
+
+                            Hive tools and smoker basics
+
+                        </div>
+
+
+                        <div class="learning-point">
+
+                            <span class="point-icon" aria-hidden="true">
+
+                                <svg viewBox="0 0 24 24">
+
+                                    <path d="M5 12.5l4 4L19 7"></path>
+
+                                </svg>
+
+                            </span>
+
+                            Frame inspection techniques
+
+                        </div>
+
+
+                        <div class="learning-point">
+
+                            <span class="point-icon" aria-hidden="true">
+
+                                <svg viewBox="0 0 24 24">
+
+                                    <path d="M5 12.5l4 4L19 7"></path>
+
+                                </svg>
+
+                            </span>
+
+                            Seasonal apiary care
+
+                        </div>
+
+
+                        <div class="learning-point">
+
+                            <span class="point-icon" aria-hidden="true">
+
+                                <svg viewBox="0 0 24 24">
+
+                                    <path d="M5 12.5l4 4L19 7"></path>
+
+                                </svg>
+
+                            </span>
+
+                            Beginner-friendly guidance
+
+                        </div>
+
+
+                        <div class="learning-point">
+
+                            <span class="point-icon" aria-hidden="true">
+
+                                <svg viewBox="0 0 24 24">
+
+                                    <path d="M5 12.5l4 4L19 7"></path>
+
+                                </svg>
+
+                            </span>
+
+                            Basic honey harvesting
+
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- CTA -->
+
+        <section class="classes-cta">
+
+            <div class="container">
+
+                <div class="classes-cta-box">
+
+                    <h3>
+
+                        Ready to Start Learning?
+
+                    </h3>
+
+                    <p>
+
+                        Have questions about our local classes or
+
+                        want to learn more about the sessions?
+
+                        Send us an enquiry and our team will be happy to help.
+
+                    </p>
+
+                    <a href="BeeWebsiteContact.html">
+
+                        Contact Us
+
+                        <svg
+                            class="cta-arrow"
+                            viewBox="0 0 24 24"
+                            aria-hidden="true">
+
+                            <path d="M5 12h14"></path>
+
+                            <path d="m13 6 6 6-6 6"></path>
+
+                        </svg>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =========================================================
+         BOOK A CLASS MODAL
+    ========================================================= -->
+
+    <div class="class-modal" id="classModal">
+
+        <div
+            class="class-modal-overlay"
+            id="classModalOverlay">
+        </div>
+
+
+        <div class="class-modal-box">
+
+
+            <button
+                type="button"
+                class="class-modal-close"
+                id="closeClassModal"
+                aria-label="Close">
+
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+
+                    <path d="M6 6l12 12"></path>
+
+                    <path d="M18 6 6 18"></path>
+
+                </svg>
+
+            </button>
+
+
+            <div class="class-modal-header">
+
+                <div class="classes-section-label">
+
+                    BEEKEEPING CLASSES
+
+                </div>
+
+                <h3>
+
+                    Book a Class
+
+                </h3>
+
+                <p>
+
+                    Choose your class and reserve your learning session
+                    with BeeHive.
+
+                </p>
+
+            </div>
+
+
+            <form id="classBookingForm">
+
+
+                <div class="class-form-grid">
+
+
+                    <div class="class-field">
+
+                        <label for="className">
+
+                            Name
+
+                        </label>
+
+                        <input
+                            type="text"
+                            id="className"
+                            placeholder="Enter your name"
+                            required>
+
+                    </div>
+
+
+                    <div class="class-field">
+
+                        <label for="classPhone">
+
+                            Phone
+
+                        </label>
+
+                        <input
+                            type="tel"
+                            id="classPhone"
+                            placeholder="Enter phone number"
+                            required>
+
+                    </div>
+
+
+                    <div class="class-field">
+
+                        <label for="classEmail">
+
+                            Email
+
+                        </label>
+
+                        <input
+                            type="email"
+                            id="classEmail"
+                            placeholder="Enter email address"
+                            required>
+
+                    </div>
+
+
+                    <div class="class-field">
+
+                        <label for="classType">
+
+                            Select Class
+
+                        </label>
+
+                        <select id="classType" required>
+
+                            <option value="">
+
+                                Choose a class
+
+                            </option>
+
+                            <option value="Beginner Beekeeping">
+
+                                Beginner Beekeeping
+
+                            </option>
+
+                            <option value="Hive Management">
+
+                                Hive Management
+
+                            </option>
+
+                            <option value="Honey Extraction">
+
+                                Honey Extraction
+
+                            </option>
+
+                            <option value="Advanced Beekeeping">
+
+                                Advanced Beekeeping
+
+                            </option>
+
+                        </select>
+
+                    </div>
+
+
+                    <div class="class-field">
+
+                        <label for="classDate">
+
+                            Date
+
+                        </label>
+
+                        <input
+                            type="date"
+                            id="classDate"
+                            required>
+
+                    </div>
+
+
+                    <div class="class-field">
+
+                        <label for="classTime">
+
+                            Time
+
+                        </label>
+
+                        <input
+                            type="time"
+                            id="classTime"
+                            required>
+
+                    </div>
+
+
+                    <div class="class-field">
+
+                        <label for="classGuests">
+
+                            Participants
+
+                        </label>
+
+                        <select id="classGuests" required>
+
+                            <option value="1">
+
+                                1 Participant
+
+                            </option>
+
+                            <option value="2">
+
+                                2 Participants
+
+                            </option>
+
+                            <option value="3">
+
+                                3 Participants
+
+                            </option>
+
+                            <option value="4">
+
+                                4 Participants
+
+                            </option>
+
+                            <option value="5">
+
+                                5 Participants
+
+                            </option>
+
+                            <option value="6">
+
+                                6 Participants
+
+                            </option>
+
+                            <option value="7">
+
+                                7 Participants
+
+                            </option>
+
+                            <option value="8">
+
+                                8 Participants
+
+                            </option>
+
+                            <option value="9">
+
+                                9 Participants
+
+                            </option>
+
+                            <option value="10">
+
+                                10 Participants
+
+                            </option>
+
+                        </select>
+
+                    </div>
+
+                </div>
+
+
+                <div class="class-field class-full">
+
+                    <label for="classRequest">
+
+                        Special Request
+
+                    </label>
+
+                    <textarea
+                        id="classRequest"
+                        rows="4"
+                        placeholder="Anything we should know?"></textarea>
+
+                </div>
+
+
+                <button
+                    type="submit"
+                    class="class-confirm-btn">
+
+                    Confirm Class Booking
+
+                </button>
+
+
+                <div
+                    class="class-success"
+                    id="classSuccess">
+
+                    <span class="class-success-icon" aria-hidden="true">
+
+                        <svg viewBox="0 0 24 24">
+
+                            <path d="M5 12.5l4 4L19 7"></path>
+
+                        </svg>
+
+                    </span>
+
+                    Your class booking request has been confirmed!
+
+                </div>
+
+            </form>
+
+        </div>
+
+    </div>
+
+
+    <!-- =========================================================
+         FOOTER
+    ========================================================= -->
+
+    <footer id="contact">
+
+        <div class="container">
+
+            <div class="footer-grid">
+
+
+                <div>
+
+                    <div class="footer-logo">
+
+                        <div class="logo-mark">
+
+                            <img src="Images/Logo3.png" alt="BeeHive Logo">
+
+                        </div>
+
+                        <div class="logo-copy">
+
+                            <h1>
+
+                                Bee<span>Hive</span>
+
+                            </h1>
+
+                            <small>
+
+                                Apiary Supply Co.
+
+                            </small>
+
+                        </div>
+
+                    </div>
+
+
+                    <p class="footer-description">
+
+                        Premium equipment, practical knowledge
+
+                        and everything you need to build a
+
+                        healthy, thriving apiary.
+
+                    </p>
+
+
+                    <div class="footer-socials">
+
+
+                        <a
+                            href="#"
+                            aria-label="LinkedIn">
+
+                            <svg viewBox="0 0 24 24">
+
+                                <path d="M6.94 8.5H3.56V20h3.38V8.5ZM5.25 3A2 2 0 1 0 5.2 7a2 2 0 0 0 .05-4ZM20.44 13.42c0-3.46-1.85-5.07-4.32-5.07-1.99 0-2.88 1.1-3.38 1.87V8.5H9.36V20h3.38v-6.4c0-1.69.32-3.33 2.42-3.33 2.07 0 2.1 1.94 2.1 3.44V20h3.18v-6.58Z"/>
+
+                            </svg>
+
+                        </a>
+
+
+                        <a
+                            href="#"
+                            aria-label="Facebook">
+
+                            <svg viewBox="0 0 24 24">
+
+                                <path d="M13.5 21v-8h2.7l.4-3h-3.1V8.1c0-.87.24-1.46 1.5-1.46H17V4a15 15 0 0 0-2.3-.12c-2.28 0-3.84 1.39-3.84 3.95V10H8.3v3h2.56v8h2.64Z"/>
+
+                            </svg>
+
+                        </a>
+
+
+                        <a
+                            href="#"
+                            aria-label="Instagram">
+
+                            <svg viewBox="0 0 24 24">
+
+                                <path d="M7.5 2h9A5.5 5.5 0 0 1 22 7.5v9a5.5 5.5 0 0 1-5.5 5.5h-9A5.5 5.5 0 0 1 2 16.5v-9A5.5 5.5 0 0 1 7.5 2Zm0 2A3.5 3.5 0 0 0 4 7.5v9A3.5 3.5 0 0 0 7.5 20h9a3.5 3.5 0 0 0 3.5-3.5v-9A3.5 3.5 0 0 0 16.5 4h-9Zm9.75 1.5a1.25 1.25 0 1 1 0 2.5 1.25 1.25 0 0 1 0-2.5ZM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10Zm0 2a3 3 0 1 0 0 6 3 3 0 0 0-3-3Z"/>
+
+                            </svg>
+
+                        </a>
+
+
+                        <a
+                            href="#"
+                            aria-label="YouTube">
+
+                            <svg viewBox="0 0 24 24">
+
+                                <path d="M23.5 6.2a3 3 0 0 0-2.1-2.12C19.54 3.5 12 3.5 12 3.5s-7.54 0-9.4.58A3 3 0 0 0 .5 6.2 31.4 31.4 0 0 0 0 12a31.4 31.4 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.12c1.86.58 9.4.58 9.4.58s7.54 0 9.4-.58a3 3 0 0 0 2.1-2.12A31.4 31.4 0 0 0 24 12a31.4 31.4 0 0 0-.5-5.8ZM9.6 15.9V8.1l6.5 3.9-6.5 3.9Z"/>
+
+                            </svg>
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <div>
+
+                    <h4>
+
+                        Shop
+
+                    </h4>
+
+                    <ul>
+
+                        <li>
+
+                            <a href="BeeWebsiteProduct.html">
+
+                                Hive Equipment
+
+                            </a>
+
+                        </li>
+
+                        <li>
+
+                            <a href="BeeWebsiteProduct.html">
+
+                                Protective Gear
+
+                            </a>
+
+                        </li>
+
+                        <li>
+
+                            <a href="BeeWebsiteProduct.html">
+
+                                Honey Harvesting
+
+                            </a>
+
+                        </li>
+
+                        <li>
+
+                            <a href="BeeWebsiteProduct.html">
+
+                                Tools & Accessories
+
+                            </a>
+
+                        </li>
+
+                    </ul>
+
+                </div>
+
+
+                <div>
+
+                    <h4>
+
+                        Learn
+
+                    </h4>
+
+                    <ul>
+
+                        <li>
+
+                            <a href="BeeWebsiteBeginner's Guide.html">
+
+                                Beginner's Guide
+
+                            </a>
+
+                        </li>
+
+                        <li>
+
+                            <a href="BeeWebsiteClaases.html">
+
+                                Beekeeping Classes
+
+                            </a>
+
+                        </li>
+
+                        <li>
+
+                            <a href="BeeWebsiteAbout.html">
+
+                                About BeeHive
+
+                            </a>
+
+                        </li>
+
+                        <li>
+
+                            <a href="BeeWebsiteContact.html">
+
+                                Contact Us
+
+                            </a>
+
+                        </li>
+
+                    </ul>
+
+                </div>
+
+
+                <div>
+
+                    <h4>
+
+                        Contact
+
+                    </h4>
+
+                    <ul>
+
+                        <li>
+
+                            <a href="mailto:hello@beehive.com">
+
+                                hello@beehive.com
+
+                            </a>
+
+                        </li>
+
+                        <li>
+
+                            <a href="tel:+919876543210">
+
+                                +91 98765 43210
+
+                            </a>
+
+                        </li>
+
+                        <li>
+
+                            <a href="#">
+
+                                Mon – Sat · 9 AM – 6 PM
+
+                            </a>
+
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+            <div class="footer-bottom">
+
+                <span>
+
+                    © 2026 BeeHive. All rights reserved.
+
+                </span>
+
+                <div class="footer-legal">
+
+                    <a href="privacy.html">
+
+                        Privacy Policy
+
+                    </a>
+
+                    <a href="terms.html">
+
+                        Terms & Conditions
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <!-- =========================================================
+         JAVASCRIPT
+    ========================================================= -->
+
+    <script>
+
+
+        /* =========================================================
+           THEME
+        ========================================================= */
+
+        const themeBtn =
+            document.getElementById("themeBtn");
+
+        const savedTheme =
+            localStorage.getItem("beehive-theme");
+
+
+        if (savedTheme === "dark") {
+
+            document.body.classList.add("dark");
+
+            themeBtn.textContent = "☀";
+
+        } else {
+
+            themeBtn.textContent = "☾";
+
+        }
+
+
+        themeBtn.addEventListener("click", () => {
+
+            document.body.classList.toggle("dark");
+
+            const isDark =
+                document.body.classList.contains("dark");
+
+            themeBtn.textContent =
+                isDark ? "☀" : "☾";
+
+            localStorage.setItem(
+                "beehive-theme",
+                isDark ? "dark" : "light"
+            );
+
+        });
+
+
+        /* =========================================================
+           DIRECTION
+        ========================================================= */
+
+        const directionBtn =
+            document.getElementById("directionBtn");
+
+        const savedDirection =
+            localStorage.getItem("beehive-direction");
+
+
+        document.documentElement.dir =
+            savedDirection === "rtl"
+                ? "rtl"
+                : "ltr";
+
+
+        directionBtn.addEventListener("click", () => {
+
+            const current =
+                document.documentElement.dir;
+
+            const newDirection =
+                current === "ltr"
+                    ? "rtl"
+                    : "ltr";
+
+            document.documentElement.dir =
+                newDirection;
+
+            localStorage.setItem(
+                "beehive-direction",
+                newDirection
+            );
+
+        });
+
+
+        /* =========================================================
+           MOBILE MENU
+        ========================================================= */
+
+        const menuBtn =
+            document.getElementById("menuBtn");
+
+        const navLinks =
+            document.getElementById("navLinks");
+
+
+        menuBtn.addEventListener("click", () => {
+
+            navLinks.classList.toggle("show");
+
+            menuBtn.textContent =
+                navLinks.classList.contains("show")
+                    ? "✕"
+                    : "☰";
+
+        });
+
+
+        document
+            .querySelectorAll("#navLinks a")
+            .forEach(link => {
+
+                link.addEventListener("click", () => {
+
+                    navLinks.classList.remove("show");
+
+                    menuBtn.textContent = "☰";
+
+                });
+
+            });
+
+
+        /* =========================================================
+           BOOK A CLASS MODAL
+        ========================================================= */
+
+        const bookClassBtn =
+            document.getElementById("bookClassBtn");
+
+        const classModal =
+            document.getElementById("classModal");
+
+        const closeClassModal =
+            document.getElementById("closeClassModal");
+
+        const classModalOverlay =
+            document.getElementById("classModalOverlay");
+
+        const classBookingForm =
+            document.getElementById("classBookingForm");
+
+        const classSuccess =
+            document.getElementById("classSuccess");
+
+
+        function openClassModal() {
+
+            classModal.classList.add("show");
+
+            document.body.style.overflow = "hidden";
+
+        }
+
+
+        function closeClassBookingModal() {
+
+            classModal.classList.remove("show");
+
+            document.body.style.overflow = "";
+
+        }
+
+
+        if (bookClassBtn) {
+
+            bookClassBtn.addEventListener(
+                "click",
+                openClassModal
+            );
+
+        }
+
+
+        if (closeClassModal) {
+
+            closeClassModal.addEventListener(
+                "click",
+                closeClassBookingModal
+            );
+
+        }
+
+
+        if (classModalOverlay) {
+
+            classModalOverlay.addEventListener(
+                "click",
+                closeClassBookingModal
+            );
+
+        }
+
+
+        document.addEventListener(
+            "keydown",
+            function(event) {
+
+                if (
+                    event.key === "Escape" &&
+                    classModal.classList.contains("show")
+                ) {
+
+                    closeClassBookingModal();
+
+                }
+
+            }
+        );
+
+
+        if (classBookingForm) {
+
+            classBookingForm.addEventListener(
+                "submit",
+                function(event) {
+
+                    event.preventDefault();
+
+                    classSuccess.classList.add("show");
+
+                    classBookingForm.reset();
+
+                    setTimeout(() => {
+
+                        classSuccess.classList.remove("show");
+
+                        closeClassBookingModal();
+
+                    }, 2500);
+
+                }
+            );
+
+        }
+
+
+        /* =========================================================
+           CART + WISHLIST
+        ========================================================= */
+
+        const cartBtn =
+            document.getElementById("cartBtn");
+
+        const favoriteBtn =
+            document.getElementById("favoriteBtn");
+
+        const cartCount =
+            document.getElementById("cartCount");
+
+        const favoriteCount =
+            document.getElementById("favoriteCount");
+
+
+        function getStoredArray(key) {
+
+            try {
+
+                return JSON.parse(
+                    localStorage.getItem(key)
+                ) || [];
+
+            } catch (error) {
+
+                return [];
+
+            }
+
+        }
+
+
+        function updateStoreCounts() {
+
+            const cart =
+                getStoredArray("beehive-cart");
+
+            const favorites =
+                getStoredArray("beehive-favorites");
+
+
+            let totalCartItems = 0;
+
+
+            cart.forEach(item => {
+
+                totalCartItems +=
+                    Number(item.quantity) || 1;
+
+            });
+
+
+            if (cartCount) {
+
+                cartCount.textContent =
+                    totalCartItems;
+
+            }
+
+            if (favoriteCount) {
+
+                favoriteCount.textContent =
+                    favorites.length;
+
+            }
+
+        }
+
+
+        /* =========================================================
+           BAG BUTTON
+        ========================================================= */
+
+        if (cartBtn) {
+
+            cartBtn.addEventListener("click", () => {
+
+                window.location.href =
+                    "BeeWebsiteProduct.html";
+
+            });
+
+        }
+
+
+        /* =========================================================
+           WISHLIST BUTTON
+        ========================================================= */
+
+        if (favoriteBtn) {
+
+            favoriteBtn.addEventListener("click", () => {
+
+                window.location.href =
+                    "BeeWebsiteProduct.html";
+
+            });
+
+        }
+
+
+        /* =========================================================
+           INITIAL COUNTS
+        ========================================================= */
+
+        updateStoreCounts();
+
+
+        window.addEventListener(
+            "storage",
+            updateStoreCounts
+        );
+
+
+        window.addEventListener(
+            "focus",
+            updateStoreCounts
+        );
+
+
+    </script>
+
+
+</body>
+
+</html>
