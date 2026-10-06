@@ -2216,26 +2216,30 @@
     }
 
     .header-actions {
-        margin-left: auto;
-        gap: 3px;
-        flex-shrink: 0;
-    }
+    margin-left: auto;
+    display: flex !important;
+    align-items: center;
+    gap: 3px;
+    flex-shrink: 0;
+}
 
-    .icon-btn,
-    .direction-btn {
-        width: 28px;
-        height: 28px;
-        min-width: 28px;
-        flex-shrink: 0;
-    }
+.icon-btn,
+.direction-btn {
+    width: 28px;
+    height: 28px;
+    min-width: 28px;
+    flex-shrink: 0;
+}
 
-    .shop-btn {
-        padding: 7px 7px;
-        font-size: 8px;
-        white-space: nowrap;
-        flex-shrink: 0;
-    }
-
+.shop-btn {
+    display: inline-flex !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    padding: 7px 7px;
+    font-size: 8px;
+    white-space: nowrap;
+    flex-shrink: 0;
+}
     .menu-btn {
         display: flex;
         width: 28px;
