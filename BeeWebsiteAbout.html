@@ -260,7 +260,8 @@
             transition: .25s ease;
         }
 
-        .home-dropdown:hover .home-dropdown-menu {
+        .home-dropdown:hover .home-dropdown-menu 
+        .home-dropdown.dropdown-open .home-dropdown-menu {
             opacity: 1;
             visibility: visible;
             pointer-events: auto;
@@ -1625,6 +1626,31 @@
                 grid-template-columns: 1fr;
             }
         }
+        @media (max-width: 400px) {
+
+    .shop-btn {
+        display: none;
+    }
+
+    .header-actions {
+        gap: 5px;
+    }
+
+    .menu-btn {
+        display: flex;
+        width: 34px;
+        height: 34px;
+        font-size: 24px;
+    }
+
+    .navbar {
+        gap: 6px;
+    }
+
+    .navbar nav {
+        top: 72px;
+    }
+}
     </style>
 </head>
 
@@ -2624,6 +2650,15 @@
 
     /* ================= MOBILE MENU ================= */
 
+   const homeDropdown = document.querySelector(".home-dropdown");
+const homeMain = document.querySelector(".home-main");
+
+homeMain.addEventListener("click", function(e) {
+    e.preventDefault();
+    homeDropdown.classList.toggle("dropdown-open");
+});
+   
+   
     const menuBtn =
         document.getElementById("menuBtn");
 
