@@ -260,8 +260,8 @@
             transition: .25s ease;
         }
 
-        .home-dropdown:hover .home-dropdown-menu 
-        .home-dropdown.dropdown-open .home-dropdown-menu {
+        .home-dropdown:hover .home-dropdown-menu {
+        
             opacity: 1;
             visibility: visible;
             pointer-events: auto;
@@ -2649,14 +2649,6 @@
 
 
     /* ================= MOBILE MENU ================= */
-
-   const homeDropdown = document.querySelector(".home-dropdown");
-const homeMain = document.querySelector(".home-main");
-
-homeMain.addEventListener("click", function(e) {
-    e.preventDefault();
-    homeDropdown.classList.toggle("dropdown-open");
-});
    
    
     const menuBtn =
