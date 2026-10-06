@@ -1966,6 +1966,79 @@ body.dark .home-cta-box {
         padding: 4px 15px 8px 0;
     }
 }
+@media (max-width:400px) {
+
+    .navbar {
+        width: 94%;
+        min-height: 76px;
+        gap: 4px;
+    }
+
+    .logo {
+        width: auto;
+        min-width: 0;
+        gap: 5px;
+        flex-shrink: 1;
+    }
+
+    .logo-mark {
+        width: 40px;
+        height: 40px;
+        flex-shrink: 0;
+    }
+
+    .logo-copy {
+        min-width: 0;
+    }
+
+    .logo-copy h1 {
+        font-size: 19px;
+        white-space: nowrap;
+    }
+
+    .logo-copy small {
+        margin-top: 4px;
+        font-size: 5px;
+        letter-spacing: 1.2px;
+        white-space: nowrap;
+    }
+
+    .header-actions {
+        margin-left: auto;
+        gap: 3px;
+        flex-shrink: 0;
+    }
+
+    .icon-btn,
+    .direction-btn {
+        width: 28px;
+        height: 28px;
+        min-width: 28px;
+        flex-shrink: 0;
+    }
+
+    .shop-btn {
+        padding: 7px 7px;
+        font-size: 8px;
+        white-space: nowrap;
+        flex-shrink: 0;
+    }
+
+    .menu-btn {
+        display: flex;
+        width: 28px;
+        height: 30px;
+        min-width: 28px;
+        padding: 0;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+        font-size: 22px;
+        line-height: 1;
+        visibility: visible;
+        opacity: 1;
+    }
+}
 
 </style>
 </head>
@@ -3366,7 +3439,7 @@ menuBtn.addEventListener("click", () => {
 
 homeNavLink.addEventListener("click", (event) => {
 
-    if (window.innerWidth <= 950) {
+    if (window.innerWidth <= 1100) {
 
         event.preventDefault();
 
